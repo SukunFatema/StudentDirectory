@@ -1,0 +1,17 @@
+<resources>
+    <style name="Base.Theme.StudentDirectory" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/champagne</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorSecondary">@color/champagne_light</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="colorSurface">@color/surface_card</item>
+        <item name="colorOnSurface">@color/ivory</item>
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:windowLightNavigationBar">false</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+    <style name="Theme.StudentDirectory" parent="Base.Theme.StudentDirectory" />
+</resources>
