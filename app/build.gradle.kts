@@ -39,8 +39,12 @@ dependencies {
     implementation(libs.constraintlayout)
     implementation(libs.recyclerview)
     implementation(libs.fragment)
+
+    // Room provides structured local SQLite storage.
+    implementation("androidx.room:room-runtime:2.7.2")
+    annotationProcessor("androidx.room:room-compiler:2.7.2")
+
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
 }
-
