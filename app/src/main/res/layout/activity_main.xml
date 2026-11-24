@@ -28,7 +28,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Your people,\nat a glance."
+        android:text="Your people,&#10;at a glance."
         android:textColor="@color/ivory"
         android:textSize="32sp"
         android:textStyle="bold"
@@ -94,7 +94,7 @@
         android:id="@+id/countLabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="YOUR DIRECTORY"
+        android:text="0 STUDENTS"
         android:textColor="@color/champagne"
         android:textSize="11sp"
         android:letterSpacing="0.08"
@@ -108,13 +108,24 @@
         android:layout_height="0dp"
         android:layout_marginTop="16dp"
         android:clipToPadding="false"
-        android:paddingBottom="20dp"
+        android:paddingBottom="96dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/listHeading"
         tools:listitem="@layout/item_student" />
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/addStudentButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="Add student"
+        android:src="@android:drawable/ic_input_add"
+        app:backgroundTint="@color/champagne"
+        app:tint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
-
-
